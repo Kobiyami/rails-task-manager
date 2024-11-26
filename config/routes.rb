@@ -29,10 +29,3 @@ Rails.application.routes.draw do
   get "/tasks/:id", to: "tasks#show", as: :task
 
 end
-
-
-
-
-  # get "/restaurants/:id", to: "restaurants#show", as: :restaurant
-
-  # resources :restaurants # , only: [:new, :create]
